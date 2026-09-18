@@ -4,7 +4,7 @@
 **BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE ENGINEERING (AI & ML)**  
 
 **Submitted by:**  
-**CHELLURI SAI VISHAL (A23126552137)**  
+**REDDI PUJITHARAM (A24126552109)**  
 
 **DEPARTMENT OF CSE (AI & ML)**  
 **ANIL NEERUKONDA INSTITUTE OF TECHNOLOGY AND SCIENCES (UGC AUTONOMOUS)**  
@@ -15,10 +15,10 @@
 
 ## BONAFIDE CERTIFICATE
 
-This is to certify that this Internship Report **“Retail Multi-Segment Profiler & High-Value Customer Classifier”** from **Edunet Foundation** in collaboration with **AICTE** and **Shell** is the bonafide work of **CHELLURI SAI VISHAL (A23126552137)** of III/IV CSM carried out during the Virtual Internship program under my supervision.
+This is to certify that this Internship Report **Retail Multi-Segment Profiler & High-Value Customer Classifier** through the **IBM Q2D PEARL**Internship Program is the bonafide work of **REDDI PUJITHARAM (A24126552109)** of III/IV CSM carried out Internship under my supervision.
 
-- **Reviewer:** Mr. S Pradeep, Assistant Professor, Department of CSE (AI & ML), ANITS
-- **Class Teacher:** Ms. Kotha Santhi Sanghamitra, Assistant Professor, Department of CSE (AI & ML), ANITS
+- **Reviewer:** Mr.Sampathirao Yoganandh, Assistant Professor, Department of CSE (AI & ML), ANITS
+- **Class Teacher:** Mr.P.Santosh Kumar, Assistant Professor, Department of CSE (AI & ML), ANITS
 - **Head of the Department:** Dr. K. Salvani Deepthi, Head of Department, CSE (AI & ML), ANITS
 
 ---
@@ -33,8 +33,8 @@ I would also like to express my deepest appreciation to **Edunet Foundation**, *
 
 My sincere thanks go to all the faculty members of the Computer Science & Engineering (AI & ML) department for their valuable advice and encouragement. I am equally grateful to the support staff, whose assistance in providing computational resources whenever required was instrumental in the successful completion of my internship.
 
-**CHELLURI SAI VISHAL**  
-**A23126552137**  
+**PUJITHARAM**  
+**A24126552109**  
 
 ---
 
@@ -449,14 +449,18 @@ The project successfully demonstrated the feasibility and business value of comb
 ====================================================================================
 This is to certify that:
 
-                               CHELLURI SAI VISHAL
+                               Reddi Pujitharam
 
-has successfully completed the 4-week virtual internship on:
-Artificial Intelligence and Data Analytics focused on Retail Multi-Segment Intelligence,
-organized by AICTE, Shell India Markets Private Limited, and Edunet Foundation
-under the Skills4Future program, from 16th June 2025 to 16th July 2025.
+                             CSM-UG Level 2
+has successfully completed an Internship in Artificial Intelligence & Machine Learning
+through PEARL Program organized by Q2D (Quantum Quotient Decode) in collaboration with
+   IBM Innovation Centre for Education (IBM ICE),from 20th May to 20th July 2026.
+The internship was undertaken as part of the UG Level program,providing the candidate
+with practical exposure,industry-revelant knowledge, and hands-on learning in the area
+of Artificial Intelligence & Machine Learning. 
 
-Student ID: STU682621ad12d201747329453
+Application No:IBMP3905
+Date of Issue:10th September 2026
 
 Nagesh Singh                   Dr. Buddha Chandrasekhar               Neha Chauhan
 Chairman, Edunet Foundation    Chief Coordinating Officer, AICTE     SP Manager, Shell
