@@ -136,15 +136,17 @@ Shell, a global leader in energy, digital transformation, and industrial analyti
 
 | Program Dimension | Institutional Details & Specifications |
 | :--- | :--- |
-| **Institutional Partners** | AICTE (Regulatory Body), Edunet Foundation (Execution), Shell (Sponsor) |
-| **Program Title** | Skills4Future Virtual Internship: AI & Data Analytics for Customer Intelligence |
-| **Program Duration** | 4 Weeks (Intensive Project-Based Learning & Mentorship) |
-| **Delivery Mode** | Fully Online / Remote (GitHub, Colab, Python SDK, Streamlit Cloud) |
-| **Eligibility Criteria** | B.Tech Computer Science Engineering / AI & ML Specialized Undergraduates |
+| ** Partners** | Q2D (Quantum Quotient Decode), IBM Innovation Centre for Education (IBM ICE) |
+| **Program** | IBM Q2D PEARL Virtual Internship Program |
+| ** Duration** | 2 months (8 weeks) (flexible) |
+| ** Mode** | Fully Online ( Remote) |
+| **Eligibility** | B.Tech Computer Science Engineering / AI & ML Specialized Undergraduates |
+| **Stipend** | Zero, with no participation fees|
+| **Value Proposition** |Hands-on project work, guided mentorship, certificate of completion, and the acquisition                                                 of AI and customer analytics skills|
 | **Core Technologies** | Python 3.14, Pandas, NumPy, Scikit-Learn, XGBoost, SHAP, Plotly, Streamlit |
-| **Key Deliverables** | Data Pipeline, K-Means Clustering, XGBoost Classifier, Streamlit Dashboard |
-| **Stipend & Fees** | Zero-Cost Program with Merit-Based Industrial Certification |
-| **Academic Credit** | Formally recognized academic internship credit fulfilling degree requirements |
+| **Deliverables** | Data Preprocessing Pipeline, K-Means Clustering Model, XGBoost Classifier, Streamlit Interactive Web Application |
+
+
 
 ---
 
