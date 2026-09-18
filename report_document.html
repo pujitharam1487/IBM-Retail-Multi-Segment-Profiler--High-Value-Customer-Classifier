@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Retail Multi-Segment Profiler & High-Value Customer Classifier - Internship Report</title>
+<style>
+    @page {
+        size: A4;
+        margin: 20mm 15mm 20mm 15mm;
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #1E293B;
+        line-height: 1.6;
+        font-size: 11pt;
+        background: #F8FAFC;
+        margin: 0;
+        padding: 20px;
+    }
+    .page-container {
+        max-width: 850px;
+        margin: 0 auto;
+        background: white;
+        padding: 40px 50px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        border: 1px solid #E2E8F0;
+        border-radius: 8px;
+    }
+    h1 {
+        color: #991B1B;
+        font-size: 22pt;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    h2 {
+        color: #0F172A;
+        font-size: 15pt;
+        border-bottom: 2px solid #E2E8F0;
+        padding-bottom: 6px;
+        margin-top: 25px;
+    }
+    h3 {
+        color: #1E293B;
+        font-size: 12pt;
+        margin-top: 18px;
+    }
+    p, li {
+        color: #334155;
+        text-align: justify;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 15px 0;
+        font-size: 9.5pt;
+    }
+    th, td {
+        border: 1px solid #CBD5E1;
+        padding: 8px 12px;
+        text-align: left;
+    }
+    th {
+        background-color: #1E293B;
+        color: white;
+        font-weight: 600;
+    }
+    tr:nth-child(even) {
+        background-color: #F8FAFC;
+    }
+    pre {
+        background-color: #0F172A;
+        color: #F8FAFC;
+        padding: 14px 18px;
+        border-radius: 6px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 9pt;
+        overflow-x: auto;
+        line-height: 1.4;
+    }
+    .badge {
+        background: #EFF6FF;
+        color: #1D4ED8;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 8.5pt;
+    }
+    .page-break {
+        page-break-before: always;
+    }
+</style>
+</head>
+<body>
+<div class="page-container">
+
+    <!-- TITLE PAGE -->
+    <div style="text-align: center; margin-top: 30px; margin-bottom: 40px;">
+        <h1 style="color: #991B1B; font-size: 24pt; line-height: 1.3;">Retail Multi-Segment Profiler &<br>High-Value Customer Classifier</h1>
+        <p style="font-style: italic; color: #475569; margin-top: 15px;">Report submitted as part of the internship program requirement for the degree of</p>
+        <p style="font-weight: bold; color: #0F172A; font-size: 13pt;">BACHELOR OF TECHNOLOGY<br>IN<br>COMPUTER SCIENCE ENGINEERING (AI & ML)</p>
+        
+        <div style="margin: 40px 0;">
+            <p style="color: #64748B; margin-bottom: 4px;">Submitted by</p>
+            <p style="font-weight: bold; font-size: 13pt; color: #0F172A;">CHELLURI SAI VISHAL &nbsp;&nbsp; (A23126552137)</p>
+        </div>
+
+        <div style="margin: 30px auto; width: 110px; height: 110px; border-radius: 50%; background: #FEF2F2; border: 2px solid #DC2626; display: flex; align-items: center; justify-content: center;">
+            <span style="font-weight: bold; color: #991B1B; font-size: 14pt;">ANITS</span>
+        </div>
+
+        <p style="font-weight: bold; color: #0F172A; font-size: 12pt; margin-top: 25px;">DEPARTMENT OF CSE (AI & ML)</p>
+        <p style="color: #334155; font-size: 10pt; line-height: 1.4;">
+            <strong>ANIL NEERUKONDA INSTITUTE OF TECHNOLOGY AND SCIENCES</strong><br>
+            (UGC AUTONOMOUS)<br>
+            (Permanently Affiliated to AU, Approved by AICTE, Accredited by NBA & NAAC with 'A+' Grade)<br>
+            SANGIVALASA, Bheemili Mandal, VISAKHAPATNAM – 531162<br>
+            2023–2027
+        </p>
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- BONAFIDE CERTIFICATE -->
+    <div style="text-align: center; margin-top: 20px;">
+        <p style="font-weight: bold; font-size: 11pt;">ANIL NEERUKONDA INSTITUTE OF TECHNOLOGY AND SCIENCES</p>
+        <p style="color: #475569; font-size: 9.5pt;">(Affiliated to Andhra University) | SANGIVALASA, VISAKHAPATNAM - 531162 | 2023–2027</p>
+        <h2 style="text-align: center; border: none; margin-top: 25px;">BONAFIDE CERTIFICATE</h2>
+    </div>
+    
+    <p style="margin-top: 25px; line-height: 1.8;">
+        This is to certify that this Internship Report <strong>“Retail Multi-Segment Profiler & High-Value Customer Classifier”</strong> from <strong>Edunet Foundation</strong> in collaboration with <strong>AICTE</strong> and <strong>Shell</strong> is the bonafide work of <strong>CHELLURI SAI VISHAL (A23126552137)</strong> of III/IV CSM carried out during the Virtual Internship program under my supervision.
+    </p>
+
+    <div style="display: flex; justify-content: space-between; margin-top: 70px;">
+        <div>
+            <p><strong>REVIEWER</strong><br><br>Mr. S Pradeep<br><span style="font-size: 9.5pt; color: #64748B;">Assistant Professor<br>Department of CSE (AI & ML)<br>ANITS</span></p>
+        </div>
+        <div>
+            <p><strong>CLASS TEACHER</strong><br><br>Ms. Kotha Santhi Sanghamitra<br><span style="font-size: 9.5pt; color: #64748B;">Assistant Professor<br>Department of CSE (AI & ML)<br>ANITS</span></p>
+        </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 50px;">
+        <p><strong>Head Of the Department</strong><br><br>DR. K. SELVANI DEEPTHI<br><span style="font-size: 9.5pt; color: #64748B;">Head of Department, CSE (AI & ML)<br>ANITS</span></p>
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- TABLE OF CONTENTS -->
+    <h2>Table of Contents</h2>
+    <table style="width: 100%;">
+        <thead>
+            <tr><th>Section & Title</th><th style="width: 80px; text-align: right;">Page</th></tr>
+        </thead>
+        <tbody>
+            <tr><td><strong>1. Introduction</strong> (Background, Objectives, Scope)</td><td align="right">6</td></tr>
+            <tr><td><strong>2. Organization Profile</strong> (AICTE, Edunet Foundation, Shell)</td><td align="right">8</td></tr>
+            <tr><td><strong>3. Project Overview</strong> (Problem Statement, Relevance)</td><td align="right">10</td></tr>
+            <tr><td><strong>4. Literature Review / Theoretical Background</strong> (K-Means, XGBoost)</td><td align="right">11</td></tr>
+            <tr><td><strong>5. Methodology</strong> (Data Collection, Preprocessing, Target Setup)</td><td align="right">14</td></tr>
+            <tr><td><strong>6. Implementation</strong> (Code Listings, EDA, Model Training, Streamlit)</td><td align="right">18</td></tr>
+            <tr><td><strong>7. Results and Discussion</strong> (Benchmark Table, Visualizations, Personas)</td><td align="right">27</td></tr>
+            <tr><td><strong>8. Conclusion & Future Work</strong> (Learnings, Skills Acquired, Next Steps)</td><td align="right">31</td></tr>
+            <tr><td><strong>9. Internship Outcomes</strong> (Technical & Soft Skills Growth)</td><td align="right">33</td></tr>
+            <tr><td><strong>Appendix</strong> (Source Code, Streamlit Screenshots, Certificate)</td><td align="right">34</td></tr>
+        </tbody>
+    </table>
+
+    <div class="page-break"></div>
+
+    <!-- EXECUTIVE BENCHMARK RESULTS SUMMARY -->
+    <h2>Executive Model Benchmark Results</h2>
+    <p>The table below summarizes the <strong>Stratified 5-Fold Cross-Validation</strong> performance of the supervised models trained to predict High-Value retail shoppers:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Model Family</th>
+                <th>Accuracy (CV Mean)</th>
+                <th>Precision (High-Value)</th>
+                <th>Recall (High-Value)</th>
+                <th>F1-Score (CV Mean)</th>
+                <th>ROC-AUC (CV Mean)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background: #EFF6FF; font-weight: bold;">
+                <td>⭐ XGBoost Classifier</td>
+                <td>0.973 ±0.01</td>
+                <td>0.954</td>
+                <td>0.940</td>
+                <td>0.946</td>
+                <td>0.997</td>
+            </tr>
+            <tr>
+                <td>Random Forest Classifier</td>
+                <td>0.967 ±0.01</td>
+                <td>0.928</td>
+                <td>0.940</td>
+                <td>0.934</td>
+                <td>0.996</td>
+            </tr>
+            <tr>
+                <td>Logistic Regression</td>
+                <td>0.978 ±0.01</td>
+                <td>0.966</td>
+                <td>0.947</td>
+                <td>0.956</td>
+                <td>0.998</td>
+            </tr>
+            <tr>
+                <td>Decision Tree Classifier</td>
+                <td>0.930 ±0.03</td>
+                <td>0.894</td>
+                <td>0.820</td>
+                <td>0.853</td>
+                <td>0.907</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Discovered Customer Personas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Cluster ID</th>
+                <th>Persona Label</th>
+                <th>Tier</th>
+                <th>Base %</th>
+                <th>Mean Income</th>
+                <th>Mean Spend</th>
+                <th>Marketing Strategy</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>0</strong></td>
+                <td>Frugal Budget Conscious</td>
+                <td>Tier 4</td>
+                <td>22.5%</td>
+                <td>$55.2k</td>
+                <td>23.5 / 100</td>
+                <td>Clearance discounts, multi-buy packs</td>
+            </tr>
+            <tr>
+                <td><strong>1</strong></td>
+                <td>Young Trendsetters</td>
+                <td>Tier 3</td>
+                <td>19.7%</td>
+                <td>$60.6k</td>
+                <td>74.7 / 100</td>
+                <td>24-hr flash mobile drops, referral rewards</td>
+            </tr>
+            <tr>
+                <td><strong>2</strong></td>
+                <td>Young Trendsetters (Digital)</td>
+                <td>Tier 3</td>
+                <td>19.5%</td>
+                <td>$60.1k</td>
+                <td>76.4 / 100</td>
+                <td>Social virality, gamified streak badges</td>
+            </tr>
+            <tr style="background: #EFF6FF; font-weight: bold;">
+                <td><strong>3</strong></td>
+                <td>💎 Affluent VIP Spenders</td>
+                <td>Tier 1</td>
+                <td>15.5%</td>
+                <td>$122.5k</td>
+                <td>52.6 / 100</td>
+                <td>Exclusive VIP Concierge (Zero discounting)</td>
+            </tr>
+            <tr>
+                <td><strong>4</strong></td>
+                <td>Frugal Budget Conscious</td>
+                <td>Tier 4</td>
+                <td>22.8%</td>
+                <td>$61.1k</td>
+                <td>22.9 / 100</td>
+                <td>Price-match guarantee, staple essentials</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+</body>
+</html>
