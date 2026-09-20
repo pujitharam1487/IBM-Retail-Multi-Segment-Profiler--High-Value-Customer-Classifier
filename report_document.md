@@ -29,9 +29,10 @@ An endeavor that spans a significant period becomes a success with the advice, e
 
 First and foremost, I extend my heartfelt thanks to **Dr. K.S. Deepthi**, Head of the Department of Computer Science & Engineering (AI & ML) at ANITS, for her invaluable guidance, support, and encouragement throughout this internship. Her mentorship and insights have been crucial to my growth during this period.
 
-I would also like to express my deepest appreciation to **Edunet Foundation**, **AICTE**, and **Shell** for offering me the opportunity to undertake this internship under the **Skills4Future** initiative. I am incredibly grateful to my supervisors and team members, whose continuous guidance, technical expertise, and support have helped me navigate challenges in unsupervised customer clustering, supervised XGBoost classification, and interactive Streamlit deployment.
+I would also like to express my deepest appreciation to **IBM Innovation Centre for Education (IBM ICE)**  and **Q2D (Quantum Quotient Decode)** for offering me the opportunity to undertake this internship. I am incredibly grateful to my supervisors and team members, whose continuous guidance, expertise, and support have helped me navigate challenges and enhance my skills in machine learning and customer analytics. 
 
-My sincere thanks go to all the faculty members of the Computer Science & Engineering (AI & ML) department for their valuable advice and encouragement. I am equally grateful to the support staff, whose assistance in providing computational resources whenever required was instrumental in the successful completion of my internship.
+My sincere thanks go to all the faculty members of the Computer Science & Engineering (AI & ML) department for their valuable advice and encouragement. I am equally grateful to the support staff, whose assistance in providing resources whenever required was instrumental in the successful completion of my internship. 
+
 
 **PUJITHARAM**  
 **A24126552109**  
@@ -95,11 +96,14 @@ My sincere thanks go to all the faculty members of the Computer Science & Engine
 # 1. Introduction
 
 ## 1.1 Background of Internship
-This report highlights my learning experience and technical outcomes from a four-week virtual internship, undertaken as part of the academic requirements for the Bachelor of Technology in Computer Science and Engineering (Artificial Intelligence & Machine Learning). The internship was conducted under the **Shell–Edunet Skills4Future AICTE Virtual Internship Program**, focusing on **“Retail Multi-Segment Customer Profiling and Predictive High-Value Shopper Modeling using AI Technologies.”**
+This report highlights my learning experience and outcomes from a virtual internship, which was part of my academic requirements for the Bachelor of Technology in Computer Science and Engineering (AI & ML). The internship was offered under the **IBM Q2D PEARL** Virtual Internship Program, organized by Q2D (Quantum Quotient Decode) in collaboration with the **IBM Innovation Centre for Education (IBM ICE)**, focusing on “Artificial Intelligence & Data Analytics – **Retail Multi-Segment Profiler & High-Value Customer Classifier.**” 
 
-The program was designed around project-based experiential learning and industrial mentorship. The core objective was not only to solidify academic foundations in machine learning algorithms, but to build production-grade solutions addressing real-world enterprise challenges. AICTE and Edunet Foundation established an effective bridge between university curricula and enterprise expectations, while Shell provided real-world data science problem formulations and sustainability/commercial guidance.
+The program was designed around project-based learning and mentorship, where the aim was not only to build technical knowledge but also to understand how technology can be applied to solve real-world business challenges. Through this initiative, Q2D and the IBM Innovation Centre for Education created a bridge between academics and industry, with IBM ICE acting as the industry partner providing guidance and focus on data driven, business-relevant applications.
 
-In modern omnichannel commerce, understanding customer purchasing behavior and identifying high-value shoppers is vital for business sustainability. Traditional blanket marketing campaigns waste significant capital, cause customer fatigue, and result in sub-optimal retention. By applying two-stage Machine Learning architectures—combining Unsupervised Learning (K-Means Clustering) for persona discovery and Supervised Learning (XGBoost Classification) for high-value propensity prediction—retailers can deliver hyper-personalized shopping experiences while optimizing customer lifetime value (CLV).
+As a student specializing in Artificial Intelligence and Machine Learning, this internship was an opportunity to apply the concepts I had studied in class to a practical project. It allowed me to strengthen my basics while also exploring how AI can be used in important areas like retail customer intelligence.
+
+The project specifically focused on customer segmentation and high-value customer prediction, which is a key concern for retail businesses. Retailers collect large volumes of transactional data, but very few translate that data into an operational view of “types of customers” that marketing and CRM teams can act on. By using 
+Artificial Intelligence and Machine Learning, businesses can group customers into meaningful personas and forecast which customers are likely to become high-value shoppers ahead of time. This makes the project not only technically meaningful but also directly relevant to business decision-making.
 
 ## 1.2 Objectives of the Internship
 The main objective of this internship was to gain practical exposure to Artificial Intelligence applications in enterprise retail analytics, with a focus on clustering customer personas and predicting high-value shoppers using Machine Learning techniques.
