@@ -127,20 +127,20 @@ The scope of this project encompasses building a complete, reproducible machine 
 
 # 2. Organization Profile
 
-## 2.1 AICTE Virtual Internship Overview
-The All India Council for Technical Education (AICTE), as the statutory apex body for technical education in India, provided the overarching academic and institutional governance for this program. Through the AICTE Internship Portal, this initiative enables engineering students across the nation to undertake accredited, industry-aligned virtual internships. The integration of internship credits into formal degree curricula guarantees rigorous academic standards, verified project deliverables, and real-world competency.
+## 2.1 IBM Q2D PEARL Program Overview
+The IBM Q2D PEARL (Program for Enhanced Applied Research & Learning) Virtual Internship Program provides the program's academic and industry backbone, organized by Q2D (Quantum Quotient Decode) in collaboration with the IBM Innovation Centre for Education (IBM ICE). The program portal serves as the central hub for student registration and application, giving the program official recognition and integrating it into the formal academic credit system. This is a critical component for students, as many degree programs require a certain number of internship-related credits, which this program provides. The involvement of an established, industry-recognised partner such as IBM ICE ensures that the internship is a legitimate and valuable part of a student's academic journey, validating the experience beyond a simple training program.  
 
-## 2.2 Role of Edunet Foundation
-The Edunet Foundation operates as the primary talent development and project execution partner. As a distinguished non-profit organization focused on emerging Industry 4.0 competencies, Edunet designs curated technical curricula, assigns senior technical mentors, conducts hands-on coding labs, and evaluates student prototypes. In addition to core AI/ML algorithms, Edunet emphasizes professional software development standards, modular code design, version control, and presentation skills.
+## 2.2 Role of Q2D (Quantum Quotient Decode)
+Q2D (Quantum Quotient Decode) serves as the primary operational and talent-development partner for the PEARL Program. As a specialised talent-development organisation, its mission is to bridge the country's skill deficit and prepare the young population for jobs in the Fourth Industrial Revolution (IR 4.0) and beyond. Q2D's role in the internship is multifaceted: it manages the full program deployment cycle, from project design and orientation to execution and delivery. Q2D curates the project content with an in-house team of subject-matter experts and provides on-ground specialists to execute the learning and training components. Their focus is on developing not just technical skills but also “meta human skills,” or soft skills, which are crucial for long-term career success. This dual focus on technical and transferable skills is designed to produce well-rounded individuals who are not only technically proficient but also adaptable and effective in a professional environment.
 
-## 2.3 Shell as the Industry Sponsor
-Shell, a global leader in energy, digital transformation, and industrial analytics, served as the industry sponsor for this initiative. Shell's involvement infuses commercial rigor, sustainability principles, and enterprise-scale problem-solving methodologies into student projects. Mentorship from industry specialists exposed interns to best practices in data ethics, feature engineering, model explainability, and production deployment frameworks.
+## 2.3 IBM Innovation Centre for Education as the Industry Partner
+The IBM Innovation Centre for Education (IBM ICE), part of IBM's global education and innovation initiative, serves as the industry partner for the PEARL Program. IBM ICE's involvement lends the internship significant industry credibility and ensures the projects are aligned with real-world business challenges. IBM's purpose is to advance technology adoption and applied-skill building among students, and its broader education initiatives invest in building applied data and AI capability among students working across a range of business-relevant projects, including this one on retail customer analytics. Through this partnership, students gain a fresh perspective on how a leading technology company applies data science, and work on projects with “a significant level of business impact”. The mentorship from IBM's industry professionals and the opportunity to work on real-world problems provide invaluable lessons that a typical classroom setting cannot replicate. This collaboration demonstrates how leading companies are actively engaging in human capital development to drive innovation. The following table summarizes the key logistical and operational details of the internship program.
 
 ## 2.4 Summary Table of Internship Logistics
 
 | Program Dimension | Institutional Details & Specifications |
 | :--- | :--- |
-| ** Partners** | Q2D (Quantum Quotient Decode), IBM Innovation Centre for Education (IBM ICE) |
+| **Partners** | Q2D (Quantum Quotient Decode), IBM Innovation Centre for Education (IBM ICE) |
 | **Program** | IBM Q2D PEARL Virtual Internship Program |
 | ** Duration** | 2 months (8 weeks) (flexible) |
 | ** Mode** | Fully Online ( Remote) |
